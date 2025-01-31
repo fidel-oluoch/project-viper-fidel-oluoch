@@ -134,10 +134,7 @@
       flex-flow: column-reverse;
     }
 
-    @media(max-width:600px) {
-      
-    }
-
+  @media(max-width:600px) {
     .abd-content{
       display: flex;
       flex-direction: row;
@@ -145,6 +142,7 @@
       padding: 0.5cm;
       background-color: #070707;
       font-size: medium;
+     }
     }
 
     /* Sections */
@@ -157,7 +155,8 @@
       margin-bottom: 1rem;
     }
 
-    /* Cards Section */
+    /* Cards Section */ 
+  @media(max-width:600px) {
     .twist{
       color:  #18f8ed;
       font-family: ESP;
@@ -194,6 +193,7 @@
       object-fit:contain;
       border-radius: 5px 5px 0 0;
     }
+   }
 
     /* FAQ Section */
     details {
@@ -275,7 +275,8 @@
     .text h1 {
       margin-top: 0;
     }
-    
+
+  @media(max-width:600px) {
     .imageA {
       flex: 1;
       display: flex;
@@ -288,6 +289,7 @@
       height: auto;
       
     }
+   }
 
     .testimonials {
     max-width: 600px;
@@ -366,6 +368,7 @@
     }
 
     /* card-image c */
+  @media(max-width:600px) {
     .containerC {
       display: flex;
       max-width: 900px;
@@ -387,20 +390,20 @@
     .text h1 {
       margin-top: 0;
     }
-    
+
+   @media(max-width:600px) {
     .imageC {
       flex: 1;
       display: flex;
       justify-content: center;
-      align-items: center;
-      
+      align-items: center; 
     }
     
     .image img {
       max-width: 150px;
       height: auto;
-      
     }
+   }
 
     .footer {
       background-color: #00f7ff;
@@ -424,12 +427,13 @@
       text-decoration: none;
       font-size: 14px;
     }
-
+   @media(max-width:600px) {
     .map image {
       width: 5cm;;
       max-width: 900px;
       border-radius: 5cm;
     }
+   }
 
     .footerbotom {
       margin-top: 20px;
