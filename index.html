@@ -126,7 +126,7 @@
     .image-0{
       max-width: 1px;
       border-radius: 2px;
-      align-content:left;
+      align-items: flex-end;
       display: grid;
       grid-template-columns: 1fr;
       flex-flow: column-reverse;
@@ -142,7 +142,9 @@
       justify-content:space-around;
       padding: 0.5cm;
       background-color: #070707;
-      font-size: medium;
+      font-size:small;
+      max-width:auto;
+      height: 2cm;
     }
 
     /* Sections */
@@ -183,8 +185,8 @@
 
     .card:hover {
       transform: translateY(-10px);
-      box-shadow: 0 6px 12px rgba(79, 82, 81, 0.2);
-      hoverco
+      box-shadow: 0 6px 12px rgba(53, 238, 238, 0.918);
+      background: #00b3a4;
     }
 
     .card img {
@@ -216,21 +218,19 @@
       border-radius: 5px;
       border: 1px solid #ddd;
     }
-body {
+   
+.subscribe-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
+    height: 3cm;
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
-}
-
-.subscribe-container {
-    background-color: #007bff;
+    background-color: #454647;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    width: 400px;
+    width: 15cm;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -255,6 +255,7 @@ body {
     font-size: 16px;
     border-radius: 50px;
     outline: none;
+    align-items: center;
 }
 
 .subscribe-box button {
@@ -270,6 +271,7 @@ body {
 .subscribe-box button:hover {
     background-color: #0056b3;
 }
+
     footer {
       text-align: center;
       padding: 1rem;
@@ -288,6 +290,7 @@ body {
       margin: auto;
       color: #2bf7f7;
       box-shadow: 0 4px 6px rgba(39, 221, 228, 0.685);
+      flex-direction: row-reverse;
     }
     
     .textA {
@@ -295,7 +298,7 @@ body {
       padding: 20px;
     }
     
-    .text h1 {
+    .text h5 {
       margin-top: 0;
     }
     
@@ -307,8 +310,8 @@ body {
     }
     
     .image img {
-      max-width: 150px;
-      height: auto;
+      max-width: 100px;
+      height: 10cm;
       
     }
 
@@ -602,17 +605,15 @@ body {
          <section class="Cards">
            <div class="containerA">
              <div class="textA">
-               <h1>Why viper</h1>
-               <h2>1. Strong Reputation & History</h2>
-               <p>A well-established company with positive reviews and a strong history of providing quality experiences ensures reliability and trustworthiness.</p>
-               <h2>2. Safety & Security</h2>
-               <p>The best cub companies prioritize the safety of children, with well-trained staff, clear safety protocols, and proper insurance.</p>
-               <h2>3. Qualified & Experienced Instructors</h2>
-               <p>A company with experienced, background-checked instructors ensures that children receive quality guidance and mentorship.</p>
-               <h2>4. Engaging & Educational Programs</h2>
-               <p>Look for a company that offers fun yet educational activities, such as leadership training, outdoor survival skills, teamwork exercises, and creativity-building projects.</p>
-               <h2>5. Affordable Pricing & Value for Money</h2>
-             
+               <h4>Why viper</h4>
+               <h5>1. Strong Reputation & History</h5>
+               <h5>2. Safety & Security</h5>
+               <h5>3.The best cub companies prioritize the safety of children, with well-trained staff, clear safety protocols, and proper insurance.</h5>
+               <h5>4. Qualified & Experienced Instructors</h5>
+               <h5>5.A company with experienced, background-checked instructors ensures that children receive quality guidance and mentorship.</h5>
+               <h5>6. Engaging & Educational Programs</h5>
+               <h5>7. Affordable Pricing & Value for Money</h5>
+               </p>
              </div>
              <div class="imageA">
                <img src="https://cdn.leonardo.ai/users/8e89f2a3-b9cf-4f06-ac44-370f713abeaf/generations/7f8eaa94-5203-4ae6-997c-d2c15405858e/segments/1:4:1/Flux_Dev_Create_an_image_of_a_confident_darkskinned_male_cab_d_0.jpeg?w=512" alt="Placeholder Image">
@@ -694,17 +695,8 @@ body {
            </div>
            <div class="containerC">
              <div class="textC">
-               <h1>Welcome to My Website</h1>
-               <h2>1. Fleet Expansion & Modernization</h2>
-               <p> Invest in new, fuel-efficient, and electric vehicles to offer eco-friendly and cost-effective transportation options.</p> 
-               <h2>2. Advanced Digital Booking System</h2>
-               <p>Develop a user-friendly mobile app and website with real-time tracking, automated booking, and secure payment options for convenience.</p>
-               <h2>3. Improved Safety & Compliance Measures</h2>
-               <p>Implement AI-driven safety monitoring, regular vehicle maintenance, and driver training programs to ensure passenger and cargo safety.</p>
-               <h2>4. Diversification of Services</h2>
-               <p>Expand into new transportation sectors such as logistics, last-mile delivery, ride-sharing, or luxury transport services.</p>
-               <h2>Subscription & Loyalty Programs</h2> 
-               <p>Introduce membership plans, discounts, and rewards for frequent customers to build long-term customer relationships.</p>
+               <h1>Our future plans</h1>
+               <p> Invest in new, fuel-efficient, and electric vehicles to offer eco-friendly and cost-effective transportation options.Develop a user-friendly mobile app and website with real-time tracking, automated booking, and secure payment options for convenience.Implement AI-driven safety monitoring, regular vehicle maintenance, and driver training programs to ensure passenger and cargo safety.Expand into new transportation sectors such as logistics, last-mile delivery, ride-sharing, or luxury transport services.Introduce membership plans, discounts, and rewards for frequent customers to build long-term customer relationships.</p>
              </div>
              <div class="imageC">
                <img src="c:\Users\OLUOCH\Pictures\2a5a4ef0-e281-49da-a9df-94a3e4950493.jpg" alt="Placeholder Image">
@@ -712,14 +704,14 @@ body {
            </div>
          </section>
          <div class="subscribe-container">
-        <h2>Subscribe To Our Newsletter</h2>
-        <div class="subscribe-box">
-            <input type="email" id="email" placeholder="Enter your email">
-            <button onclick="subscribe()">
-                ➝
-             </button>
-           </div>
-       </div>>
+    <h2>Subscribe To Our Newsletter</h2>
+    <div class="subscribe-box">
+        <input type="email" id="email" placeholder="Enter your email">
+        <button onclick="subscribe()">
+            ➝
+         </button>
+       </div>
+   </div>
        </main>
    <footer class="footer">
       <p>viper transport company</p>
@@ -877,7 +869,8 @@ body {
      // Initialize star ratings
      updateStarRatings();
 
-      function subscribe() {
+     
+     function subscribe() {
     let email = document.getElementById("email").value;
     if (email) {
         alert("Thank you for subscribing!");
