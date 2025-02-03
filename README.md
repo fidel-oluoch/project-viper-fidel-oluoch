@@ -13,7 +13,6 @@
       line-height: 1.6;
       background-color: #080808;
     }
-
     header {
       background: linear-gradient(to right,  #090a0a,  #070707, #3c4146, #18f8ed, #09fcdc,#484d52, #070707,  #090a0a );
       color: whitesmoke;
@@ -56,7 +55,6 @@
       gap: 1rem;
       margin-right: 1rem;
     }
-
     header .buttons button {
       background: rgb(8, 8, 8);
       color: #00f7ff;
@@ -66,7 +64,6 @@
       cursor: pointer;
       transition: all 0.3s;
     }
-
     header .buttons button:hover {
       background: #11fcfc;
       color: black;
@@ -131,11 +128,6 @@
       grid-template-columns: 1fr;
       flex-flow: column-reverse;
     }
-
-    @media(max-width:600px) {
-      
-    }
-
     .abd-content{
       display: flex;
       flex-direction: row;
